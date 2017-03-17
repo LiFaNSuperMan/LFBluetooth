@@ -44,7 +44,7 @@ typedef NS_ENUM(NSInteger , ReadType){
 // 发送命令
 - (void)sendOrderWithData:(NSData *)data;
 // 主动读取值
-- (void)readRingValue:(ResType)type;
+- (void)readRingValue:(ReadType)type;
 // 断开连接
 - (void)disconnectRing;
 @end
